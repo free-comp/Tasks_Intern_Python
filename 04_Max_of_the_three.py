@@ -2,9 +2,8 @@
 
 def max (numb_1, numb_2, numb_3):
     result = numb_1
-    if (numb_1 > numb_2 and numb_1 > numb_3): result = numb_1
-    if (numb_2 > numb_1 and numb_2 > numb_3): result = numb_2
-    if (numb_3 > numb_1 and numb_3 > numb_2): result = numb_3
+    if (numb_2 > result): result = numb_2
+    if (numb_3 > result): result = numb_3
     return result
 
 print ('Введите три числа: ')
