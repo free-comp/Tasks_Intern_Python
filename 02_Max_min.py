@@ -2,14 +2,12 @@
 
 def max (arg_1, arg_2):
     result = arg_1
-    if (arg_1 > arg_2): result = arg_1
-    if (arg_2 > arg_1): result = arg_2
+    if (arg_2 > result): result = arg_2
     return result
 
 def min (arg_1, arg_2):
     result = arg_1
-    if (arg_1 < arg_2): result = arg_1
-    if (arg_2 < arg_1): result = arg_2
+    if (arg_2 < result): result = arg_2
     return result
 
 print ('Введите первое число', end = ' ')
