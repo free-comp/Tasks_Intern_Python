@@ -2,7 +2,7 @@
 
 def find(number):
     number = abs (number) # на случай ввода отрицательного числа
-    third_dig = (number % 1000 - (number % 1000) % 10)//100
+    third_dig = (number % 1000) // 100
     return third_dig
 
 
