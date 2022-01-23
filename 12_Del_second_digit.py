@@ -1,8 +1,8 @@
 # 12. Удалить вторую цифру трёхзначного числа
 
 def del_second(x):
-    one_digit = (numb - numb%100)//100
-    third_digit = numb%10
+    one_digit = numb  // 100
+    third_digit = numb % 10
     return one_digit*10 + third_digit
 
 numb = int(input ('Введите трехзначное число: '))
